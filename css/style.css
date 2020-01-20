@@ -5,6 +5,12 @@ body {
     box-sizing: border-box;
 }
 
+/*ACCESSIBLITY*/
+sr-only{
+    position: absolute;
+    left: -999em;
+}
+
 
 /*Container*/
 
