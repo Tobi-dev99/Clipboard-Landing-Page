@@ -3,6 +3,8 @@ body {
     text-align: center;
     font-size: 18px;
     box-sizing: border-box;
+    background: url(/images/bg-header-desktop.png) no-repeat;
+    background-size: contain;
 }
 
 /*ACCESSIBLITY*/
@@ -140,6 +142,12 @@ sr-only{
 /*Media Query Section*/
 
 @media (max-width: 600px){
+    
+    body{
+        background: url(/images/bg-header-mobile.png) no-repeat;
+        background-size: contain;
+    }
+    
     .paragraph{
         width: 85%;
     }
@@ -153,6 +161,7 @@ sr-only{
         padding: 5%;
     }
 }
+
 
 .col-2dot4,
 .col-sm-2dot4,
